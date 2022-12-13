@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>RegisterForm</title>
+    <style>
+        label {
+            display:block;
+        }
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="link" href="./register.html">Регистарция</a>
+        <a class="link" href="enter.html" aria-current="enter">Вход</a>
+    </nav>
+    <main>
+        <h1 class="title">Онлайн библиотека Мои любимые книги</h1>
+    </main>
+    <article>
+        <h2>Регистрация нового пользователя</h2>
+        <div>
+            <p>Здравствуйте, уважаемый посетитель нашего сайта!</p>
+            <p>Регистрация на нашем сайте позволит Вам читать книги онлайн бесплатно.
+            Вы можете оставлять комментарии под прочитанной книгой, смотреть фильмы снятых по сюжетам любимых книг
+            и многое другое.
+            </p>
+       
+            <form action="./enter.html" >
+                <fieldset class="forform">  
+                    <legend style="color: darkred">Новый пользователь</legend>
+                    <label for="firstname"><input required type="text" id="firstname" name="firstname">  Имя</label> 
+                    <label for="lastname"><input required type="text" id="lastname" name="lastname">  Фамилия</label>
+                    <label for=""><input required inputmode="email" placeholder="email value">  Почта</label>
+                    <label for=""><input required inputmode="tel" placeholder="tel value">  Номер телефона</label>
+                    <label for="password"> <input required type="text" id="password" name="password"> Enter your Password</label>  
+                </fieldset>
+                <div>
+                    <h2>Дополнительные поля</h2>
+                    <section>
+                        <p>Уважаемый пользователь в Ваш день рождение наша команда будет предоставлять Вам дополнительные бонусы и предложения по улучению чтения книг. Подробнее можно прочитать про услугу после регистрации на нашем сайте, 
+                        для этого нужно заполнить ниже предложенные дополнительные информации</p>
+                    </section>
+                    <fieldset class="forform">  
+                        <legend style="color: darkred">Дополнительные поля</legend>
+                        <label for=""><input required type="date"> День рождения</label>
+                        <label for="male"><input required type="radio" name="gender">Male</label>
+                        <label for="female"><input required type="radio" name="gender">Female</label>
+                    </fieldset>
+                    <p>Уважаемый пользователь на сайте книги предложены только для чтения. Использование книг в других целях нарушают права автора, копирование, использование цитат или указывание в других источниках согласовывается не посредственно с автором.</p>
+                    <label for="yes"><input required type="checkbox">Я согласен(на)</label>
+                    <a href="enter.html"></a>
+                    <button type="submit" class="btn">Регистрация</button>
+                    </a>
+                </div>   
+            </form>
+        </div>   
+    </article> 
+    <footer class="footer">
+        <p>© 2022 - электронная библиотека в которой можно читать онлайн книги бесплатно. Все материалы взяты из открытых источников и представлены исключительно в ознакомительных целях. Все права на книги принадлежат их авторам и издательствам. </p>
+    </footer> 
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Книги онлайн</title>
+    <style>
+        label {
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="link" href="./register.html">Регистарция</a>
+        <a class="link" href="enter.html" aria-current="enter">Вход</a>
+    </nav>
+    <main>
+        <h1 class="title">Онлайн библиотека Мои любимые книги</h1>
+    </main>
+  <div>
+        <h2>Уважаемый посетитель нашего сайта!</h2> 
+        <p>Здравствуйте, уважаемый посетитель нашего сайта!</p>
+        <p>Что бы продолжить чтение Вашей любимой книги, Войдите в систему или Зарегистрируйтесь как новый пользователь.</p>
+        <form id="login-form" action="./mainpage.html" method="GET">
+            <fieldset>
+                <legend>Войти в систему</legend>
+                <label for=""><input required inputmode="email" placeholder="email value" name="mail">Почта</label>
+                <label for="password"> <input required inputmode type="text" id="password" name="password"> Enter your Password</label>  
+                <button type="submit"> Вход </button>
+            </fieldset>
+        </form>
+
+        <section> </section>
+
+        <section>
+            <h3>Новые книги, новые авторы!</h3>
+            <p>При выборе книги для чтения не забываем что каждый день на свет рождается новая книги и сними новые впечатления.
+                Предлагаю поддержать новых писателей в начале их увлекательного путешествия.</p>
+            <div class="gallery">
+                <img width="300" height="250" src="https://book24.kz/upload/iblock/08f/08f137ba8c86822752d18ed4704524c3.jpg" alt="">        
+                <img width="300" height="250" src="https://img3.labirint.ru/rc/6a64c81a662ae5932f25c2ad02e2e777/363x561q80/books72/710899/cover.jpg?1574274303" alt="">
+                <img width="300" height="250" src="https://pbs.twimg.com/media/Fi0XXopX0AIKlFk.jpg" alt="">
+                <img width="300" height="250" src="https://horrorzone.ru/uploads/_books/114876/sundial.jpg" alt="">
+            </div>
+        </section>  
+        
+    </div>
+    <footer class="footer">
+        <p>© 2022 - электронная библиотека в которой можно читать онлайн книги бесплатно. Все материалы взяты из открытых источников и представлены исключительно в ознакомительных целях. Все права на книги принадлежат их авторам и издательствам. </p>
+    </footer>
+</body>
+</html>
